@@ -1,0 +1,36 @@
+{
+  "name": "API-NovaPoshta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "b": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deniska-sosiska/API-NovaPoshta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deniska-sosiska/API-NovaPoshta/issues"
+  },
+  "homepage": "https://github.com/deniska-sosiska/API-NovaPoshta#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "vue-axios": "^2.1.5",
+    "vue.js": "^0.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "vue-template-compiler": "^2.6.12",
+    "image-webpack-loader": "^7.0.1",
+    "style-loader": "^2.0.0",
+    "vue-loader": "^15.9.4",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack": "^5.3.0"
+  }
+}
